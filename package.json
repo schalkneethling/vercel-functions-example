@@ -1,0 +1,23 @@
+{
+  "name": "vercel-functions-example",
+  "version": "1.0.0",
+  "description": "A simple Vercel serverless function example",
+  "main": "api/handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/schalkneethling/vercel-functions-example.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/schalkneethling/vercel-functions-example/issues"
+  },
+  "homepage": "https://github.com/schalkneethling/vercel-functions-example#readme",
+  "dependencies": {
+    "node-fetch": "^3.3.0"
+  }
+}
