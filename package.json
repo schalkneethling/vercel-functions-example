@@ -2,7 +2,8 @@
   "name": "vercel-functions-example",
   "version": "1.0.0",
   "description": "A simple Vercel serverless function example",
-  "main": "/api/handler.js",
+  "exports": "./api/handler.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
