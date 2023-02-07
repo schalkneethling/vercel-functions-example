@@ -14,4 +14,4 @@ export default async function handler(request, response) {
   return response.status(200).json({ success: true });
 }
 
-export allowCors(handler)
+module.exports = allowCors(handler)
