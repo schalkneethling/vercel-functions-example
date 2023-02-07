@@ -1,4 +1,4 @@
-const allowCors = fn => async (req, res) => {
+const allowCors = (fn) => async (req, res) => {
   res.setHeader('Access-Control-Allow-Credentials', true)
   res.setHeader('Access-Control-Allow-Origin', '*')
 
@@ -14,4 +14,4 @@ export default async function handler(request, response) {
   return response.status(200).json({ success: true });
 }
 
-module.exports = allowCors(handler)
+export allowCors(handler)
